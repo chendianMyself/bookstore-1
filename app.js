@@ -15,6 +15,7 @@ var db = mongoose.connection;
 
 app.get('/', (req, res) => {
 	res.send('Please use /api/books or /api/genres');
+	alert("你好吗》？");
 });
 
 app.get('/api/genres', (req, res) => {
